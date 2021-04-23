@@ -187,7 +187,7 @@ class Bitbay():
         return response
     
     def get_curr_balance(self, symbol):
-        table = bitbay.get_balance()['balances']
+        table = self.get_balance()['balances']
         for currency in table:
             if currency['name'] == symbol:
                 return currency['availableFunds']
@@ -393,7 +393,7 @@ if __name__ == '__main__':
         print("End of iteration: " + str(how_many))
 
         for currency in setup_parameters["CURRENCIES"].keys():
-             print(currency)
+            print(currency)
             curr_zakup = float(setup_parameters["CURRENCIES"][currency])
             curr_aktualny_kurs = float(bitbay.get_ticker(currency)['rate'])
             curr_zmiana = (curr_aktualny_kurs / curr_zakup - 1) * 100
