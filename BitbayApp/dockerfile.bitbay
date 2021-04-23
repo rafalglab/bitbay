@@ -8,6 +8,8 @@ RUN pip install --user -r requirements.txt
 
 #COPY src/ .
 
-#CMD sleep 10000
+WORKDIR /src
 
-CMD ["python", "-u", "/src/bitbay.py"]
+# CMD sleep 10000
+
+CMD ["python", "-u", "./bitbay_request.py"]

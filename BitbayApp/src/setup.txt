@@ -17,6 +17,6 @@
         },
     "BTC_BUY_RATE": 0.99,
     "BTC_SELL_RATE": 1.01,    
-    "BTC_BUY_AMOUNT_RATE": 0.1,
-    "BTC_SELL_AMOUNT_RATE": 0.1
+    "BTC_BUY_AMOUNT_RATE": 0.03,
+    "BTC_SELL_AMOUNT_RATE": 0.03
 }
