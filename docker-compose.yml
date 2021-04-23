@@ -1,0 +1,15 @@
+version: '2.0'
+services:
+ bitbay:
+  container_name: bitbay
+  build:
+   context: ./BitbayApp
+   dockerfile: dockerfile.bitbay
+  restart: always
+  networks:
+   - frontend
+  volumes:
+   - './BitbayApp/src:/src'
+
+networks:
+ frontend:
