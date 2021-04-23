@@ -1,0 +1,14 @@
+{
+    "CURRENCIES": {
+        "BTC-PLN": 220000,
+        "AMLT-PLN": 0.14,
+        "EXY-PLN": 0.49, 
+        "XIN-PLN": 0.02,
+        "XLM-PLN": 1.88,
+        "TRX-PLN": 0.52
+        },
+    "BTC_BUY_RATE": 0.99,
+    "BTC_SELL_RATE": 1.01,    
+    "BTC_BUY_AMOUNT_RATE": 0.15,
+    "BTC_SELL_AMOUNT_RATE": 0.1
+}
